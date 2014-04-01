@@ -1,0 +1,221 @@
+/* 
+    Document   : style
+    Created on : 11-oct-2013, 14:58:10
+    Author     : Moises
+    Description:
+        Purpose of the stylesheet follows.
+*/
+cabeceramain{
+    text-align: left;
+    
+}
+root { 
+    display: block; 
+}
+
+body {
+    background-color: #B0B0B0;
+}
+
+div{ 
+    text-align: center;
+}
+
+#buy{
+    text-align: center;
+    margin-top: 200px;
+}
+
+table.listacanciones {
+    background-color: whitesmoke;
+    border: 0;
+    margin: 0 auto 0 auto;
+}
+
+table.listaproductos {
+    background-color: whitesmoke;
+    border: 0;
+    margin: 0 auto 0 auto;
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    border: 5px inset #ded3de;
+}
+
+table.userview {
+    background-color: #cccccc;
+    border: 0;
+    margin: 0 auto 0 auto;
+    border-radius: 37px 37px 37px 34px;
+    -moz-border-radius: 37px 37px 37px 34px;
+    -webkit-border-radius: 37px 37px 37px 34px;
+    border: 5px groove #ded3de;
+    margin-top:40px;
+    margin-right: 260px;
+    margin-left: 60px; 
+}
+
+table.albumview {
+    background-color: #cccccc;
+    border: 0;
+    margin: 0 auto 0 auto;
+}
+
+table.mainview{
+    border: 0;
+    margin: 0 auto 0 auto;
+}
+
+.actual{
+    font-weight:bold;
+    font-size: 16pt;
+}
+
+.user{
+    border: 0;
+    background-color: transparent;
+    font-weight:bold;
+    margin-left:160px;
+    font-size: 13pt;
+    text-decoration: underline;
+    font-family: cursive;
+}
+.user:hover{
+    color:#FFFFFF; 
+}
+.user1{
+    border: 0;
+    background-color: transparent;
+    font-weight:bold;
+    font-size: 13pt;
+    margin-left:130px;
+    text-decoration: underline;
+    font-family: cursive;
+}
+.user1:hover{
+    color:#FFFFFF; 
+}
+.button{
+    background:-moz-linear-gradient(#848484 0%,#DADADA 100%);
+    background:-ms-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-o-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-webkit-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:linear-gradient(#848484 0%,#DADADA 100%);
+    border:solid 1px #DEDEDE; 
+    border-radius:5px;
+    text-align:center;
+    padding:5px; 
+    color:#000000; 
+    width:80px;  
+    font-weight:bold;
+}
+.button:hover{
+    background:-moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+    color:#FFFFFF; 
+}
+
+.button1{
+    background:-moz-linear-gradient(#848484 0%,#DADADA 100%);
+    background:-ms-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-o-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-webkit-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:linear-gradient(#848484 0%,#DADADA 100%);
+    border:solid 1px #DEDEDE; 
+    border-radius:5px;
+    text-align:center;
+    padding:5px; 
+    color:#000000; 
+    width:90px;  
+    font-weight:bold;
+    margin-left:150px;
+    margin-right:100px;
+}
+.button1:hover{
+    background:-moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+    color:#FFFFFF; 
+}
+
+.button2{
+    background:-moz-linear-gradient(#848484 0%,#DADADA 100%);
+    background:-ms-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-o-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-webkit-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:linear-gradient(#848484 0%,#DADADA 100%);
+    border:solid 1px #DEDEDE; 
+    border-radius:5px;
+    text-align:center;
+    padding:5px; 
+    color:#000000; 
+    width:90px;  
+    font-weight:bold;
+    margin-left:80px;
+    margin-right:220px;
+    
+}
+.button2:hover{
+    background:-moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+    color:#FFFFFF; 
+}
+
+.button3{
+    background:-moz-linear-gradient(#848484 0%,#DADADA 100%);
+    background:-ms-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-o-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-webkit-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:linear-gradient(#848484 0%,#DADADA 100%);
+    border:solid 1px #DEDEDE; 
+    border-radius:5px;
+    text-align:center;
+    padding:5px; 
+    color:#000000; 
+    width:90px;  
+    font-weight:bold;
+    margin-left:140px;
+    margin-right:80px;
+}
+.button3:hover{
+    background:-moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+    color:#FFFFFF; 
+}
+
+.button4{
+    background:-moz-linear-gradient(#848484 0%,#DADADA 100%);
+    background:-ms-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-o-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-webkit-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:linear-gradient(#848484 0%,#DADADA 100%);
+    border:solid 1px #DEDEDE; 
+    border-radius:5px;
+    text-align:center;
+    padding:5px; 
+    color:#000000; 
+    width:90px;  
+    font-weight:bold;
+    margin-right:190px;
+}
+.button4:hover{
+    background:-moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+    color:#FFFFFF; 
+}
+
+.button5{
+    background:-moz-linear-gradient(#848484 0%,#DADADA 100%);
+    background:-ms-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-o-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:-webkit-linear-gradient(#848484 0%,#DADADA 100%); 
+    background:linear-gradient(#848484 0%,#DADADA 100%);
+    border:solid 1px #DEDEDE; 
+    border-radius:5px;
+    text-align:center;
+    padding:5px; 
+    color:#000000; 
+    width:130px;  
+    font-weight:bold;
+    margin-left:40px;
+    margin-right:40px;
+}
+.button5:hover{
+    background:-moz-linear-gradient(#fff 0%,#DEDEDE 100%);
+    color:#FFFFFF; 
+}
+
